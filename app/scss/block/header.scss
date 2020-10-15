@@ -1,0 +1,53 @@
+.header {
+  background: $dark url('../img/header/main-bg.png') no-repeat;
+
+  background-position: center;
+  color: white;
+  background-size: cover;
+  padding: 70px 0;
+  &-phone {
+    text-align: right;
+
+    &__number {
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+      margin-left: 60px;
+      display: inline-block;
+    }
+  }
+
+  &__title {
+    font-size: 38px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 63px;
+    text-align: left;
+    @include bold;
+  }
+
+  &__subtitle {
+    margin-top: 50px;
+    max-width: 460px;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-align: left;
+  }
+
+  &__triggers {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-trigger {
+    width: 194px;
+  }
+}
+
+.header--top {
+  margin-top: 160px;
+}
