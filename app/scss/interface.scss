@@ -11,14 +11,30 @@ img {
   max-width: 100%;
 }
 
- 
+.section {
+  padding: 90px 0;
+}
+
+.section__title {
+  font-size: 36px;
+  font-weight: 700;
+  max-width: 546px;
+  margin-bottom: 100px;
+}
 
 .btn {
   border: none;
   border-radius: 7px;
-  padding: 25px 50px;
   font-size: 20px;
   font-weight: 700;
 }
- 
+
 $dark:#040c1f;
+
+.btn-light {
+  padding: 25px 50px;
+}
+
+.btn-primary {
+  padding: 25px 50px;
+}
