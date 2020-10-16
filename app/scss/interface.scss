@@ -28,7 +28,9 @@ $dark:#040c1f;
 }
 
 
-
+.tinkoff {
+  background: #040c1f url('../img/help/tinkoff-bank.png') no-repeat center right 20% / 450px;
+}
 
 .input {
   border: 1px solid #95989a;
@@ -74,5 +76,13 @@ $dark:#040c1f;
   }
 }
 
+.footer {
+  padding: 50px 0;
+  background-color: #040c1f;
 
-.btn-dark {}
+  &__text {
+    margin: 0;
+    color: #95989a;
+  }
+
+}

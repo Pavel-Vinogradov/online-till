@@ -1,0 +1,32 @@
+.contact {
+
+  // .contact__title
+
+  &__title {
+
+    @include bold;
+    margin-bottom: 15px;
+  }
+
+  // .contact__address
+
+  &__address {
+    margin-bottom: 15px;
+    line-height: 24px;
+  }
+
+  // .contact__work
+
+  &__work {
+    margin-bottom: 15px;
+    line-height: 24px;
+  }
+
+  // .contact__phone
+
+  &__phone {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+}
