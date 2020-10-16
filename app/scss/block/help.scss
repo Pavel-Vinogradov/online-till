@@ -1,0 +1,10 @@
+.help {
+
+  background: #040c1f url('../img/help/help.png') no-repeat center  right 20% / 450px;
+ 
+
+  &__title {
+    font-size: 36px;
+    @include bold;
+  }
+}

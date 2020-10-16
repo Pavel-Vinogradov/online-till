@@ -1,0 +1,29 @@
+ .reason {
+
+   background: white url('../img/reason/abstract-bottom.png')no-repeat right bottom;
+
+   &-block {}
+
+   // .reason__title
+
+   &__title {
+     @include bold;
+     font-size: 20px;
+     margin-bottom: 20px;
+     
+
+     &::before {
+       content: '';
+       display: inline-block;
+       width: 21px;
+       height: 21px;
+       background: url('../img/reason/check.png') no-repeat center / 100%;
+       vertical-align: top;
+       margin-right: 10px;
+     }
+   }
+
+   // .reason__text
+
+  
+ }

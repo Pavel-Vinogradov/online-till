@@ -5,6 +5,7 @@
   color: white;
   background-size: cover;
   padding: 70px 0;
+
   &-phone {
     text-align: right;
 
@@ -45,6 +46,10 @@
 
   &-trigger {
     width: 194px;
+  }
+
+  &__btn {
+    padding: 20px 40px;
   }
 }
 

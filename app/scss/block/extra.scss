@@ -1,0 +1,50 @@
+ .extra {
+
+   background: white url('../img/extra/abstract-top.png')no-repeat left top;
+
+   &-block {
+     display: flex;
+     justify-content: space-between;
+   }
+
+   &-card {
+     flex-basis: 24%;
+     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26);
+     padding: 20px;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: inherit;
+     // .excntra-card__title
+
+     &__title {
+       font-size: 24px;
+       @include bold;
+     }
+
+     // .excntra-card__text
+
+     &__text {
+       min-height: 71px;
+     }
+
+     // .excntra-card__price
+
+     &__price {
+       font-size: 24px;
+       @include bold;
+       color: #796eff;
+       margin-bottom: 20px;
+
+     }
+
+     // .excntra-card__btn
+
+     &__btn {
+
+       padding: 15px 0;
+       width: 100%;
+     }
+   }
+
+ }

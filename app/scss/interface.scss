@@ -11,30 +11,68 @@ img {
   max-width: 100%;
 }
 
-.section {
-  padding: 90px 0;
-}
 
-.section__title {
-  font-size: 36px;
-  font-weight: 700;
-  max-width: 546px;
-  margin-bottom: 100px;
-}
 
 .btn {
   border: none;
   border-radius: 7px;
-  font-size: 20px;
-  font-weight: 700;
+
+  @include bold;
 }
 
 $dark:#040c1f;
 
-.btn-light {
-  padding: 25px 50px;
+.bg--dark {
+  color: white;
+  background-color: #040c1f;
 }
 
-.btn-primary {
-  padding: 25px 50px;
+
+
+
+.input {
+  border: 1px solid #95989a;
+  padding: 15px 50px 15px 20px;
+  border-radius: 5px;
+  outline: none;
 }
+
+.form {
+  &__input {
+    vertical-align: middle;
+    margin-right: 30px;
+  }
+
+  &__btn {
+    vertical-align: middle;
+    padding: 15px 30px;
+  }
+}
+
+.policy__link {
+  text-decoration: none;
+  color: white;
+}
+
+.section {
+  padding: 90px 0;
+
+
+  &__title {
+    font-size: 36px;
+    @include bold;
+    max-width: 580px;
+    margin-bottom: 100px;
+  }
+
+  &__discription {
+    margin: 30px 0;
+  }
+
+  &__form {
+    margin-bottom: 70px;
+  }
+}
+
+
+.btn-dark {}

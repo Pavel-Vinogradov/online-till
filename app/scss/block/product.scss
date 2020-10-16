@@ -6,7 +6,7 @@
    // .product-card__title
 
    &__title {
-     font-weight: 700;
+     @include bold;
      font-size: 24px;
    }
 
@@ -26,11 +26,18 @@
    &__price {
      font-size: 24px;
      margin-bottom: 20px;
-     display: inline-block;
+     display: block;
    }
+
+
  }
 
 
  .product__card {
    margin-bottom: 30px;
+ }
+
+ .product__btn {
+   padding: 15px 0;
+   width: 100%;
  }
