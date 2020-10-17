@@ -6,6 +6,7 @@
      display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
+     background-color: white;
    }
 
    &-card {
@@ -48,4 +49,19 @@
      }
    }
 
+ }
+ @media screen and (max-width: 768px) {
+
+  .extra-card {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+  }
+}
+
+ @media screen and (max-width: 568px) {
+
+   .extra-card {
+     flex-basis: 100%;
+     margin-bottom: 20px;
+   }
  }

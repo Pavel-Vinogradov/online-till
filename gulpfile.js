@@ -126,6 +126,7 @@ function css() {
 
 function js() {
   return gulp.src(path.src.js)
+    .pipe(gulp.dest(path.build.js))
     .pipe(uglify())
     .pipe(rename({
       extname: '.min.js'
