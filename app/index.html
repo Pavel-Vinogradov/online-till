@@ -37,7 +37,8 @@
             <span class="header-trigger">Подключим для ООО, АО и ИП на любой системе налогооблажения </span>
             <span class="header-trigger">Подходит для любых торговых точек и интернет-магазинов</span>
           </div>
-          <button data-toggle="modal" data-target="#modal" class="btn btn-light header__btn">Заказать кассу в 1
+          <button data-toggle="modal" data-target="#modal" data-title="кассу в 1
+          клик" class="btn btn-light header__btn">Заказать кассу в 1
             клик</button>
         </div>
 
@@ -125,7 +126,7 @@
         </div>
         <div class="col-lg-4 col-md-4  d-flex">
           <div class="product-card product__card">
-            <h3 class="product-card__title">Касса МТС-5</h3>
+            <h3 class="product-card__title">МТС-5</h3>
             <img src="img/main/till-7.jpg" alt="" class="product-card__img">
             <p class="product-card__text">Идеально подходит для малого и среднего бизнеса: розничных торговых точек,
               сферы
@@ -138,7 +139,7 @@
         </div>
         <div class="col-lg-4 col-md-4  d-flex">
           <div class="product-card product__card">
-            <h3 class="product-card__title">Касса МТС-7</h3>
+            <h3 class="product-card__title">МТС-7</h3>
             <img src="img/main/till-8.jpg" alt="" class="product-card__img">
             <p class="product-card__text">Мобильная онлайн-касса с большим сенсорным экраном. Отличное решение для
               розничных торговых точек любой направленности.
@@ -151,7 +152,7 @@
         </div>
         <div class="col-lg-4 col-md-4 d-flex">
           <div class="product-card product__card">
-            <h3 class="product-card__title">Касса АЗУР-01Ф</h3>
+            <h3 class="product-card__title"> АЗУР-01Ф</h3>
             <img src="img/main/till-9.jpg" alt="" class="product-card__img">
             <p class="product-card__text">Касса с банковским терминалом. Возможность сканировать штрих-код и QR-кода.
               Кассовая программа и товароучетная система в комплекте.</p>
@@ -171,10 +172,10 @@
         <h2 class="help__title">Оставьте номер телефона, мы подскажем, какую кассу вам можно установить
           <br> и ответим на ваши вопросы. <br>
           Это бесплатно. </h2>
-        <form action="#" class="form section__form form__horizontal">
+        <form action="#" id="form__first" class="form section__form form__horizontal">
           <p class="section__discription">Обычно перезваниваем за 10 минут,если нужно быстрее-нажмите сюда</p>
-          <input type="text" placeholder="Ваше Имя" class="input form__input">
-          <input type="tel" placeholder="Номер телефона" class="input form__input">
+          <input type="text" placeholder="Ваше Имя" class="input form__input _req ">
+          <input type="tel" placeholder="Номер телефона" class="input form__input _req">
           <button type="submit" class="btn form__btn btn-primary">Бесплатная консультация</button>
           <p class="section__discription">Нажимая на кнопку, вы даете согласие на обработку персональных данных,
             <br> подробнее в <a class="policy__link" href="#policy">политике конфиденциальности</a></p>
@@ -282,10 +283,10 @@
         <h2 class="help__title">Кассу можно оформить в рассрочку
           до 12 месяцев через Тинькофф Банк . <br>
           Это бесплатно. </h2>
-        <form action="#" class="form section__form form__horizontal">
+        <form action="#" id="form__second" class="form section__form form__horizontal">
           <p class="section__discription">Обычно перезваниваем за 10 минут,если нужно быстрее-нажмите сюда</p>
-          <input type="text" placeholder="Ваше Имя" class="input form__input">
-          <input type="tel" placeholder="Номер телефона" class="input form__input">
+          <input type="text" placeholder="Ваше Имя" class="input form__input _req">
+          <input type="tel" placeholder="Номер телефона" class="input form__input _req">
           <button type="submit" class="btn form__btn btn-primary">Бесплатная консультация</button>
           <p class="section__discription">Нажимая на кнопку, вы даете согласие на обработку персональных данных,
             <br> подробнее в <a class="policy__link" href="#policy">политике конфиденциальности</a></p>
@@ -319,8 +320,7 @@
         </div>
         <div class="map col-lg-8">
           <iframe
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac3725e5d1be712850d7f920f110581d322572e3961ae5230989c5e9ada895a5f&amp;source=constructor"
-            width="100%" height="419" frameborder="0"></iframe>
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac3725e5d1be712850d7f920f110581d322572e3961ae5230989c5e9ada895a5f&amp;source=constructor"></iframe>
         </div>
       </div>
     </div>
@@ -357,10 +357,10 @@
           </button>
         </div>
         <div class="modal-body">
-          <form action="#" class="form modal__form form__horizontal">
+          <form action="#" id="form_modal" class="form modal__form form__horizontal">
             <p class="modal__discription">Свяжемся с вами через 15 минут </p>
-            <input type="text" placeholder="Ваше Имя" class=" modal__input">
-            <input type="tel" placeholder="Номер телефона" class=" modal__input">
+            <input type="text" placeholder="Ваше Имя" class=" modal__input _req">
+            <input type="tel" placeholder="Номер телефона" class=" modal__input _req">
             <button type="submit" class="btn modal__btn btn-primary">Бесплатная консультация</button>
 
           </form>
