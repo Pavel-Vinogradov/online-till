@@ -17,7 +17,22 @@
     font-size: 26px;
     margin-bottom: 20px;
   }
+  .form__input {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
 
+  .input {
+    border: 1px solid #95989a;
+    padding: 15px 30px 15px 20px;
+    border-radius: 5px;
+    outline: 0;
+  }
+
+  .form__btn {
+    vertical-align: middle;
+    padding: 15px 9px;
+  }
 
 }
 

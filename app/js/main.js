@@ -31,7 +31,7 @@ for (let i = 0, j = 1; i < copy.length, j < modalLink.length; i++, j++) {
 
 modalLink.forEach(element => {
 
-  console.log(element.getAttribute('data-title'));
+
   element.addEventListener('click', openModal);
 
   function openModal() {
@@ -60,25 +60,3 @@ function closeModal(event) {
 window.addEventListener('keydown', closeModal);
 modalClose.addEventListener('click', closeModal);
 modalBtn.addEventListener('click', closeModal);
-
-
-document.addEventListener('DDOMContentLoaded', () => {
-  modal.addEventListener('submit', modalSend);
-
-  async function modalSend(event) {
-    event.preventDefault();
-    let error = formValidate(modal);
-  }
-
-  function formValidate(modal) {
-    let error = 0;
-    let formReq = document.querySelectorAll('._req');
-
-
-    for (let index = 0; index < formReq.length; index++) {
-      const input = formReq[index];
-
-    }
-  }
-
-});

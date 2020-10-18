@@ -77,6 +77,20 @@
   .header-trigger {
     width: auto;
   }
+
+  .header--visiual {
+    z-index: 200;
+  }
+
+  .header__img {
+
+    width: 200px;
+    height: 200px;
+    top: -450px;
+    position: absolute;
+    right:  0;
+
+  }
 }
 
 @media screen and (max-width: 768px) {
