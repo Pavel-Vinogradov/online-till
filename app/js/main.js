@@ -24,16 +24,9 @@ for (let i = 0, j = 1; i < copy.length, j < modalLink.length; i++, j++) {
 }
 
 
-
-
-
-
-
 modalLink.forEach(element => {
 
-
   element.addEventListener('click', openModal);
-
   function openModal() {
     textTitleModal.textContent = 'Заказать' + ' ' + this.getAttribute('data-title');
     document.body.style.overflow = 'hidden';
@@ -45,11 +38,8 @@ modalLink.forEach(element => {
 });
 
 
-
-function closeModal(event) {
-  let element = event.target;
-  if (event.keyCode === 27 || modalClose.classList.contains('close')) {
-    event.preventDefault();
+function closeModal() {
+  {
     document.body.style.overflow = 'scroll';
     modal.classList.add('modal--closed');
     modal.classList.remove('show');
@@ -57,6 +47,6 @@ function closeModal(event) {
   }
 }
 
-window.addEventListener('keydown', closeModal);
+
 modalClose.addEventListener('click', closeModal);
 modalBtn.addEventListener('click', closeModal);
